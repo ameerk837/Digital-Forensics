@@ -1,0 +1,6 @@
+rule match{
+	strings:
+		$a="123"
+	condition:
+		$a
+}	
